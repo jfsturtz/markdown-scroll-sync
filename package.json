@@ -1,9 +1,9 @@
 {
-  "name": "markdown-scroll-sync",
+  "name": "jfs-markdown-scroll-sync",
   "main": "./lib/main",
   "version": "2.1.2",
-  "description": "Auto-scroll markdown-preview tab to match markdown source",
-  "repository": "https://github.com/mark-hahn/markdown-scroll-sync",
+  "description": "[jfs] Auto-scroll markdown-preview tab to match markdown source",
+  "repository": "https://github.com/jfsturtz/markdown-scroll-sync",
   "license": "MIT",
   "engines": {
     "atom": ">1.0.0"
