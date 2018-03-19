@@ -14,7 +14,7 @@ class MarkdownScrlSync
     {TextEditor} = atom.workspace.buildTextEditor()
     @subs        = new SubAtom
 
-    if not (prvwPkg = atom.packages.getLoadedPackage 'markdown-preview') and
+    if not (prvwPkg = atom.packages.getLoadedPackage 'jfs-markdown-preview') and
        not (prvwPkg = atom.packages.getLoadedPackage 'markdown-preview-plus')
       log 'markdown preview package not found'
       return
